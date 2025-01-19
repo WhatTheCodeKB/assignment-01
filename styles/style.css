@@ -1,6 +1,38 @@
 /*body styles*/
 body{
     background-color: #F1F1F3;
+    font-family: "Fira Sans", serif;
     margin: 120px 160px;
-    
+}
+
+/*header styles*/
+header{
+    display: flex;
+    background-color: #C6E4D6;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 80px 60px;
+    border-radius: 24px;
+}
+.header-h4{
+    color: #0E0E0E;
+    opacity: 50%;
+    margin: 0%;
+}
+.header-h1{
+    width: 60%;
+    margin-top: 0%;
+    font-weight: bold;
+}
+.header-btn{
+    font-weight: semibold;
+    background-color: #006A50;
+    color: #ffffff;
+    padding: 17px 34px;
+    border-radius: 8px;
+    border: none;
+}
+.header-img{
+    width: 474px;
+    height: 400px;
 }
