@@ -8,13 +8,13 @@ body{
 /*header styles*/
 header{
     display: flex;
+    justify-content: space-evenly;
     background-color: #C6E4D6;
     align-items: center;
-    justify-content: space-evenly;
     padding: 80px 60px;
     border-radius: 24px;
 }
-.header-h4{
+.header-h3{
     color: #0E0E0E;
     opacity: 50%;
     margin: 0%;
@@ -22,7 +22,6 @@ header{
 .header-h1{
     width: 60%;
     margin-top: 0%;
-    font-weight: bold;
 }
 .header-btn{
     font-weight: semibold;
@@ -35,4 +34,75 @@ header{
 .header-img{
     width: 474px;
     height: 400px;
+}
+
+/*main styles*/
+main{
+    margin-top: 80px;
+}
+.main-text{
+    color: #0E0E0E;
+    opacity: 70%;
+}
+.main-h3{
+    color: #0E0E0E;
+    opacity: 80%;
+}
+.main-p{
+    color: #0E0E0E;
+    opacity: 70%;
+}
+
+/*card styles*/
+.cards{
+    display: flex;
+    justify-content: space-between;
+    gap: 24px;
+}
+.card{
+    border-radius: 16px;
+    padding: 32px;
+}
+.c1{
+    background-color: rgba(84, 144, 245, 0.2);
+    width: 411px;
+}
+.c2{
+    background-color: #C6E4D6;
+    width: 411px;
+}
+.c3{
+    background-color: #F7EBCF;
+    width: 411px;
+}
+
+.main-btn{
+    font-weight: semibold;
+    color: #ffffff;
+    padding: 11px 20px;
+    border-radius: 8px;
+    border: none;
+}
+.mbtn1{
+    background-color: #5490F5;
+}
+.mbtn2{
+    background-color: #09A15C;
+}
+.mbtn3{
+    background-color: #FFC239;
+}
+
+/*yousuf styles*/
+.yousuf{
+    background-color: #ffffff;
+    padding: 48px 24px;
+    margin-top: 32px;
+    border-radius: 16px;
+    background-image: url(../assets/quote-bg.png);
+    background-repeat: no-repeat;
+    background-position: 24px 41px;
+}
+.quote-p{
+    color: rgba(14, 14, 14, 0.8)
 }
