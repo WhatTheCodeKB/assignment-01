@@ -4,6 +4,10 @@ body{
     font-family: "Fira Sans", serif;
     margin: 120px 160px;
 }
+h1{
+    font-size: 40px;
+    color: #0E0E0E;
+}
 
 /*header styles*/
 header{
@@ -152,4 +156,53 @@ time{
     border-radius: 8px;
     border: none;
     background-color: #006A50;
+
+/*donation styles*/
+}
+.donate{
+    margin-top: 80px;
+    text-align: center;
+}
+.donate-p{
+    margin-bottom: 0%;
+}
+.donate-h1{
+    margin-bottom: 0%;
+}
+.donate-options{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 24px;
+}
+.d200{
+    background-color: #C6E4D6;
+    padding: 40px;
+    border-radius: 16px;
+    color: #0E0E0E;
+    opacity: 80%;
+    font-size: 40px;
+    font-weight: bold
+}
+.donation{
+    background-color: #ffffff;
+    padding: 40px;
+    border-radius: 16px;
+    color: #0E0E0E;
+    opacity: 80%;
+    font-size: 40px;
+    font-weight: bold;
+}
+.donate-input{
+    width: 100%;
+    padding: 20px;
+    margin-bottom: 32px;
+    width: 90%;
+    text-align: center;
+    font-size: 20px;
+    border-radius: 8px;
+    border: none;
+    margin-top: 16px;
+}
+::placeholder{
+    color: rgba(14, 14, 14, 0.3);
 }
