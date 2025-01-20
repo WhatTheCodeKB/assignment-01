@@ -40,10 +40,6 @@ header{
 main{
     margin-top: 80px;
 }
-.main-text{
-    color: #0E0E0E;
-    opacity: 70%;
-}
 .main-h3{
     color: #0E0E0E;
     opacity: 80%;
@@ -105,4 +101,55 @@ main{
 }
 .quote-p{
     color: rgba(14, 14, 14, 0.8)
+}
+
+/*news styles*/
+.recent{
+    margin-top: 80px;
+}
+.news-1{
+    display: flex;
+    gap: 32px;
+    justify-content: space-evenly;
+    background-color: #ffffff;
+    padding: 48px;
+    border-radius: 24px;
+}
+.news-2{
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 32px;
+    justify-content: space-evenly;
+    background-color: #ffffff;
+    padding: 48px;
+    border-radius: 24px;
+    margin-top: 24px;
+}
+.news-img{
+   border-radius: 24px;
+}
+.news-h2{
+    color: #0E0E0E;
+    opacity: 80%;
+    margin-bottom: 0%;
+}
+.news-logo{
+    display: block;
+    margin-bottom: 12px;
+}
+time{
+    color: #0E0E0E;
+    opacity: 70%;
+}
+.news-p{
+    color: #0E0E0E;
+    opacity: 70%;
+}
+.news-btn{
+    font-weight: semibold;
+    color: #ffffff;
+    padding: 13px 26px;
+    border-radius: 8px;
+    border: none;
+    background-color: #006A50;
 }
